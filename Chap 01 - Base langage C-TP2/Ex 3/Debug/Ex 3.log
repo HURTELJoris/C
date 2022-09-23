@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\formation\desktop\c\chap 01 - base langage c-tp2\ex 3\source.cpp(17): warning C4305: '=' : troncation de 'double' à 'float'
+c:\users\formation\desktop\c\chap 01 - base langage c-tp2\ex 3\source.cpp(18): warning C4305: '=' : troncation de 'double' à 'float'
+  Ex 3.vcxproj -> C:\Users\Formation\Desktop\C\Chap 01 - Base langage C-TP2\Debug\Ex 3.exe
