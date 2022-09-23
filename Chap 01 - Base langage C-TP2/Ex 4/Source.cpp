@@ -6,31 +6,42 @@
 
 int main(int argc, char** argv)
 {
-	float poid;
-	float prix;
-	float prix1;
-	float prix2;
-	float prix3;
-	printf("Entrez le poid de votre lettre en grammes : ");
-	scanf("%f", &poid);
-	prix1 = 3.00;
-	prix2 = 3.95;
-	prix3 = 5.90;
+	int eleve;
+	int age,sex,nbcine, cbburger;
+	const char* QouM, Quick, MacDonalds;
+	
+	printf("Entrez le nombre d'élèves : ");
+	scanf("%d", &eleve);
 
-	if (poid < 20)
+	while (eleve != 0)
 	{
-		prix = prix1;
+		
+		printf("Quel est votre âge ? : ");
+		scanf("%d", &age);
+		printf("Combien de fois allez-vous au cinema par mois ? : ");
+		scanf("%d", &nbcine);
+		printf("Vous preferez manger au Quick ou au MacDonalds (ecrire le bon orthographe) ? : ");
+		scanf("s", &QouM);
+		if (QouM = "Quick")
+		{
+			Quick == 1;
+			MacDonalds == 0;
+		}
+		else if (QouM = "MacDonalds")
+		{
+			Quick == 0;
+			MacDonalds == 1;
+		}
+		printf("Vous preferez manger au Quick ou au MacDonalds (ecrire le bon orthographe) ? : ");
+		scanf("%d", &cbburger);
+		eleve--;
 	}
 
-	if (poid >= 20 and poid < 50)
-	{
-		prix = prix2;
-	}
 
-	if (poid >= 50)
-	{
-		prix = prix3;
-	}
+
+
+
+	
 
 
 	printf("Le prix de votre lettre est : %f", prix);
