@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\formation\desktop\c\chap 02 - chaînes et tableaux -tp2\ex2\source.cpp(11): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+c:\users\formation\desktop\c\chap 02 - chaînes et tableaux -tp2\ex2\source.cpp(21): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+c:\users\formation\desktop\c\chap 02 - chaînes et tableaux -tp2\ex2\source.cpp(35): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  Ex2.vcxproj -> C:\Users\Formation\Desktop\C\Chap 02 - Chaînes et tableaux -TP2\Debug\Ex2.exe
