@@ -44,7 +44,5 @@ int main(int argc, char** argv)
 	
 
 
-	printf("Le prix de votre lettre est : %f", prix);
-	printf(" frs \n");
 	_getch();
 }
