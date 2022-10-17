@@ -4,7 +4,7 @@
 #include <string.h>
 
 /* 
-   Écrivez un programme en C qui saisit une chaîne donné par l’utilisateur et qui
+   Écrivez un programme en C qui saisit une chaîne donnée par l’utilisateur et qui
    convertit les éventuelles majuscules en minuscules
 */
 

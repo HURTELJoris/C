@@ -7,42 +7,32 @@
 // nombre de fois que chacune des lettres de l’alphabet et le nombre d’espaces ont été
 // présents dans la phrase. 
 
+/*
+	Compter le nombre d'apparition de chaque caractère (A à Z ; a à z ; espace)
+		-->
+		Solution 1 : 27 variables et du coup écrire 53 if --> chiant à écrire !
+
+		Solution 2 : 1 variable temporaire qui compte que pour 1 lettre à chaque fois et affiche entre chaque itérations ma valeur du compteur.
+			--> 
+			parcours de la chaine beaucoup de fois ---> sous-optimal.
+
+		Solution 3 : Tableau ?
+*/
+
 int main(int argc, char** argv)
 {
-	char car;
+	char chaine[27];
 
-	int i, compt = 0, o = 0;
-	char str[100];
+	printf("Entrer une phrase : ");
+	gets_s(chaine, 27);
 
-
-	printf("Veuillez saisir votre phrase : ");
-	gets_s(str);
-
-
-	printf("Donnez le charactere que vous voulez rechercher : ");
-	scanf("%c", &car);
-
-	i = strlen(str);
-
-	while (car != str[i])
+	do
 	{
 
-		if (i <= 0)
-		{
-			o = 1;
-			break;
-		}
-		compt++;
-		i--;
-	}
+	} while (i < strlen(chaine));
 
-	if (o == 0)
-	{
-		printf("Le caractere %c se trouve a la position %d a partir de la droite \n", car, compt);
-	}
-	else
-	{
-		printf("Le caractere %c n'est pas dans la phrase", car);
-	}
+
+
+
 	return 0;
 }
