@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo3\source.cpp(38): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  Génération de code en cours
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  exo3.vcxproj -> C:\Users\Formation\Desktop\C\Chap 03 - Les fonctions - TP1\x64\Release\exo3.exe
