@@ -7,22 +7,27 @@
 #include<math.h>
 #include "Header.h"
 
-int affiche(int nbr1, int nbr2)
+void invmot(char* mot)
 {
-	int pgcd;
-	for (int i = 1; i <= nbr1 && i <= nbr2; ++i)
+	char* resultat;
+	if (strlen(mot) < 2)
 	{
-		if (nbr1%i == 0 && nbr2%i == 0)
-			pgcd = i;
+		printf("%s", mot); //cas d'arret
 	}
-
-	printf("PGCD de %d et %d = %d", nbr1, nbr2, pgcd);
-	return 0;
-
+	else
+	{
+		for (int i = 0; i <= strlen(mot); i++)
+		{
+			resultat[i] = mot[-1];
+			mot - mot[-1];
+		}
+	}
 }
 
 int main(int argc, char** argv)
 {
-	affiche(52, 65);
-		
+	int a;
+	printf("Entrez un mot : ");
+	scanf("%s",&a);
+	printf("L'inverse du mot %s est : %s\n",a, invmot(a));
 }

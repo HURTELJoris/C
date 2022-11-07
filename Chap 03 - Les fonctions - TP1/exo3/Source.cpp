@@ -8,36 +8,37 @@
 #include "Header.h"
 
 
-float min(float * tab)
+float min(float * t)
 {
-	int i = 0;
-	float min = fminf(tab[i], tab[i++]);
+	float valMin = t[0];
 	for (int i = 1; i < 8; i++)
 	{
-		min = fminf(min, tab[i+1]);
+		if (t[i] < valMin)
+		{
+			valMin = t[i];
+		}
 	}
-	printf("La valeur minimum de la liste est : %f\n", min);
-	return 0;
+	return valMin;
 }
 
-float max(float * tab)
+float max(float * t)
 {
-	int i = 0;
-	float max = 0;
-	for (int i = 0; i < 8; i++)
+	float valMax = t[0];
+	for (int i = 1; i < 8; i++)
 	{
-		max = fmaxf(tab[i], tab[i+1]);
+		if (t[i] > valMax)
+		{
+			valMax = t[i];
+		}
 	}
-		
-	printf("La valeur maximum de la liste est : %f\n", max);
-	return 0;
+	return valMax;
 }
 
 int main(int argc, char** argv)
 {
 	float liste[8] = { 1.6,-6.9,9.67,5.90,89.9,-23.6,78,34.6};
-	min(liste);
-	max(liste);
+	printf("La valeur minimum de la liste est de : %f\n\n",min(liste));
+	printf("La valeur minimum de la liste est de : %f\n", max(liste));
 	return 0;
 
 }

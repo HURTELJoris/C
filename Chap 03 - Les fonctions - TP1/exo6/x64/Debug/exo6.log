@@ -1,0 +1,10 @@
+﻿  Source.cpp
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo4\source.cpp(22): warning C4552: '-' : résultat de l'expression non utilisé
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo4\source.cpp(31): warning C4477: 'scanf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int *'
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo4\source.cpp(32): error C2664: 'void invmot(char *)' : impossible de convertir l'argument 1 de 'int' en 'char *'
+  c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo4\source.cpp(32): note: La conversion d'un type intégral en type pointeur nécessite reinterpret_cast, un cast de style C ou un cast de style fonction
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo4\source.cpp(32): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'int'
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo4\source.cpp(32): warning C4313: 'printf' : conflit entre '%s' dans la chaîne de format et l'argument 1 de type 'int'
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo4\source.cpp(32): warning C4473: 'printf' : nombre insuffisant d'arguments passés pour la chaîne de format
+  c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo4\source.cpp(32): note: les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
+  c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo4\source.cpp(32): note: l'argument variadique manquant 2 est demandé par la chaîne de format '%s'

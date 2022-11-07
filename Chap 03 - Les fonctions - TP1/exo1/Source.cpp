@@ -14,6 +14,11 @@ int puissance(int a, int b)
 }
 int main(int argc, char** argv)
 {
-	puissance(2, 8);
+	int x, y;
+	printf("Donnez le chiffre : ");
+	scanf("%d",&x);
+	printf("\nDonnez la puissance : ");
+	scanf("%d",&y);
+	puissance(x, y);
 	return 0;
 }
