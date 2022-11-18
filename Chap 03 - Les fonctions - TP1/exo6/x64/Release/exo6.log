@@ -1,0 +1,5 @@
+﻿  Source.cpp
+  Génération de code en cours
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp1\exo6\source.cpp(15): error C4700: variable locale 'resultat' non initialisée utilisée
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+LINK : fatal error LNK1257: échec de la génération du code

@@ -1,33 +1,32 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
+#include <stdio.h>
 #include <tchar.h>
 #include <string.h>
 #include <time.h>
 #include <stdlib.h>
-#include<math.h>
+#include <math.h>
 #include "Header.h"
 
-void invmot(char* mot)
+void pgcd(int x,int y)
 {
-	char* resultat;
-	if (strlen(mot) < 2)
+	int pgcd;
+	for (int i = 1; i <= x && i <= y; ++i)
 	{
-		printf("%s", mot); //cas d'arret
-	}
-	else
-	{
-		for (int i = 0; i <= strlen(mot); i++)
+		if (x%i == 0 && y%i == 0)
 		{
-			resultat[i] = mot[-1];
-			mot - mot[-1];
-		}
+			pgcd = i;
+		}	
 	}
+	printf("\nLe pgcd de %d et %d est : %d\n",x,y,pgcd);
 }
 
 int main(int argc, char** argv)
 {
-	int a;
-	printf("Entrez un mot : ");
-	scanf("%s",&a);
-	printf("L'inverse du mot %s est : %s\n",a, invmot(a));
+	int a,b;
+
+	printf("\nEntrez le premier entier : ");
+	scanf("%d", &a);
+	printf("\nEntrez le deuxieme entier : ");
+	scanf("%d", &b);
+	pgcd(a, b);
 }

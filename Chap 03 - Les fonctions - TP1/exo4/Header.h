@@ -1,2 +1,2 @@
 #pragma once
-void invmot(char *mot);
+int factorielle(int n);

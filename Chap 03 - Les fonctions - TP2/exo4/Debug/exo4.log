@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp2\exo4\source.cpp(12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+c:\users\formation\desktop\c\chap 03 - les fonctions - tp2\exo4\source.cpp(75): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  exo4.vcxproj -> C:\Users\Formation\Desktop\C\Chap 03 - Les fonctions - TP2\Debug\exo4.exe
