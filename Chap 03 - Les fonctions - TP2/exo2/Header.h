@@ -1,4 +1,3 @@
 #pragma once
-void div2(int n);
-void div3(int n);
+void mot_de_passe(char *tab);
 

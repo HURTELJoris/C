@@ -6,34 +6,46 @@
 #include <stdlib.h>
 #include<math.h>
 #include "Header.h"
-//a faire
-void div2(int n)
+#include <conio.h>
+
+void mot_de_passe(char *tab)
 {
-	if (n % 2)
+	int i = 0;
+	char ch;
+	printf("Entrez votre mot de passe : ");
+	do
 	{
-		printf("\n%d n'est pas divisible par 2\n", n);
-	}
-	else
-	{
-		printf("\n%d est divisible par 2\n", n);
-	}
+		ch = _getch();
+		if (ch != 8 && ch != 0 && ch != 83)
+		{
+			tab[i] = ch;
+			i++;
+			if (ch != 13)
+			{
+				printf("*");
+			}
+		}
+		else if (ch == 8)
+		{
+			i--;
+			if (i < 0)
+				i = 0;
+			printf("%c %c", 8, 8);
+		}
+	} while (ch != 13);
+
+	tab[i - 1] = '\0';
+	printf("\nLongueur du mot de passe : %d", i-1);
 }
-void div3(int n)
+
+
+int main(int argc, char ** argv)
 {
-	if (n % 3)
-	{
-		printf("\n%d n'est pas divisible par 3\n", n);
-	}
-	else
-	{
-		printf("\n%d est divisible par 3\n", n);
-	}
-}
-int main(int argc, char** argv)
-{
-	int a;
-	printf("Veuillez choisir le nombre entier : ");
-	scanf("%d", &a);
-	div2(a);
-	div3(a);
+	char mdp[100];
+	mot_de_passe(mdp);
+	printf("\n%s\n", mdp);
+
+
+
+	return 0;
 }

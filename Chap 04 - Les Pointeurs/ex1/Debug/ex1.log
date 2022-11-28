@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex1\source.cpp(27): warning C4305: '=' : troncation de 'double' à 'float'
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex1\source.cpp(28): warning C4305: '=' : troncation de 'double' à 'float'
+  ex1.vcxproj -> C:\Users\Formation\Desktop\C\Chap 04 - Les Pointeurs\Debug\ex1.exe

@@ -1,0 +1,13 @@
+﻿  Source.cpp
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(22): error C2664: 'char *gets_s(char *,rsize_t)' : impossible de convertir l'argument 1 de 'char *[100]' en 'char *'
+  c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(22): note: Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(23): error C2144: erreur de syntaxe : 'char' doit être précédé de ')'
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(23): error C2660: 'strlen' : la fonction ne prend pas 0 arguments
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(219): note: voir la déclaration de 'strlen'
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(23): error C2144: erreur de syntaxe : 'char' doit être précédé de ';'
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(23): error C2059: erreur de syntaxe : ')'
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(23): warning C4091: '' : ignoré à gauche de 'char' quand aucune variable n'est déclarée
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(31): error C2664: 'size_t strlen(const char *)' : impossible de convertir l'argument 1 de 'char *[100]' en 'const char *'
+  c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(31): note: Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(33): warning C4477: 'printf' : la chaîne de format '%c' nécessite un argument de type 'int', mais l'argument variadique 2 est de type 'char *'
+c:\users\formation\desktop\c\chap 04 - les pointeurs\ex3\source.cpp(19): fatal error C1075: '{' : jeton correspondant introuvable
