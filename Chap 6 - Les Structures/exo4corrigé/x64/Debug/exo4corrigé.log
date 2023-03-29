@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\formation\desktop\c\chap 6 - les structures\exo4corrigé\source.cpp(104): error C2143: erreur de syntaxe : absence de ';' avant 'chaîne'
+c:\users\formation\desktop\c\chap 6 - les structures\exo4corrigé\source.cpp(104): error C2143: erreur de syntaxe : absence de ';' avant 'constante'
+c:\users\formation\desktop\c\chap 6 - les structures\exo4corrigé\source.cpp(105): error C2143: erreur de syntaxe : absence de ';' avant '}'

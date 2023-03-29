@@ -7,11 +7,14 @@ InitialisationQt::InitialisationQt(QWidget *parent)
 	socket = new QTcpSocket(this);
 	QObject::connect(socket, SIGNAL(connected()), this, SLOT(onSocketConnected()));
 	QObject::connect(socket, SIGNAL(disconnected()), this, SLOT(onSocketDisconnected()));
+<<<<<<< HEAD
 	QObject::connect(socket, SIGNAL(readyRead()), this, SLOT(onSocketReadyRead()));
 
 	server = new QTcpServer(this);
 	QObject::connect(server, SIGNAL(newConnection()), this, SLOT(onServerNewConnection()));
 	server->listen(QHostAddress::AnyIPv4, 4321);
+=======
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
 }
 
 InitialisationQt::~InitialisationQt()
@@ -49,6 +52,7 @@ void InitialisationQt::onSendMessageButtonClicked()
 	{
 		socket->write("Hello server !\n");
 	}
+<<<<<<< HEAD
 }
 
 void InitialisationQt::onSocketReadyRead()
@@ -80,4 +84,6 @@ void InitialisationQt::onClientReadyRead()
 	QByteArray data = obj->read(obj->bytesAvailable());
 	QString str(data);
 	ui.ClientStatusLabel->setText("Status client : Message recu de hercules = " + str);
+=======
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
 }

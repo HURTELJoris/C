@@ -1,2 +1,6 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.22000.0
+<<<<<<< HEAD
 Debug|x64|\\192.168.64.88\Partage Exo\C\QT\InitialisationQt\|
+=======
+Debug|x64|C:\D()()\QT\InitialisationQt\|
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85

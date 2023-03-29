@@ -1,2 +1,8 @@
 ﻿  InitialisationQt.cpp
+<<<<<<< HEAD
   InitialisationQt.vcxproj -> \\192.168.64.88\Partage Exo\C\QT\InitialisationQt\x64\Debug\InitialisationQt.exe
+=======
+  main.cpp
+  moc_InitialisationQt.cpp
+  InitialisationQt.vcxproj -> C:\D()()\QT\InitialisationQt\x64\Debug\InitialisationQt.exe
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85

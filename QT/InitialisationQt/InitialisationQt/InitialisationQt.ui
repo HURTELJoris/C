@@ -6,8 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
+<<<<<<< HEAD
     <width>686</width>
     <height>473</height>
+=======
+    <width>481</width>
+    <height>400</height>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,21 +22,36 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>30</x>
       <y>160</y>
       <width>181</width>
+=======
+      <x>310</x>
+      <y>260</y>
+      <width>121</width>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
       <height>31</height>
      </rect>
     </property>
     <property name="text">
+<<<<<<< HEAD
      <string>Afficher un message</string>
+=======
+     <string>Afficher Message</string>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>10</x>
       <y>210</y>
+=======
+      <x>110</x>
+      <y>140</y>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
       <width>291</width>
       <height>101</height>
      </rect>
@@ -45,12 +65,20 @@
      <rect>
       <x>30</x>
       <y>80</y>
+<<<<<<< HEAD
       <width>181</width>
+=======
+      <width>121</width>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
       <height>31</height>
      </rect>
     </property>
     <property name="text">
+<<<<<<< HEAD
      <string>Connexion au server hercules</string>
+=======
+     <string>Connexion</string>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
     </property>
    </widget>
    <widget class="QLineEdit" name="IPLineEdit">
@@ -102,10 +130,17 @@
    <widget class="QLabel" name="connectionStatusLabel">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>220</x>
       <y>10</y>
       <width>201</width>
       <height>16</height>
+=======
+      <x>240</x>
+      <y>30</y>
+      <width>201</width>
+      <height>61</height>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
      </rect>
     </property>
     <property name="text">
@@ -115,13 +150,20 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>30</x>
       <y>120</y>
       <width>181</width>
+=======
+      <x>64</x>
+      <y>220</y>
+      <width>111</width>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
       <height>31</height>
      </rect>
     </property>
     <property name="text">
+<<<<<<< HEAD
      <string>Envoyer un message au server</string>
     </property>
    </widget>
@@ -162,6 +204,9 @@
     </property>
     <property name="text">
      <string>Status connexion : Message recu :</string>
+=======
+     <string>Envoyer au server</string>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
     </property>
    </widget>
   </widget>
@@ -170,7 +215,11 @@
     <rect>
      <x>0</x>
      <y>0</y>
+<<<<<<< HEAD
      <width>686</width>
+=======
+     <width>481</width>
+>>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
      <height>21</height>
     </rect>
    </property>
