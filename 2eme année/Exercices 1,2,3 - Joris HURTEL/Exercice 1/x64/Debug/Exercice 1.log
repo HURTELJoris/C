@@ -1,0 +1,4 @@
+﻿  Exercice 1.cpp
+C:\Users\Joris HURTEL\source\repos\Exercices 1,2,3 - Joris HURTEL\Exercice 1\Exercice 1.cpp(16,9): warning C4477: 'printf' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type 'int *'
+C:\Users\Joris HURTEL\source\repos\Exercices 1,2,3 - Joris HURTEL\Exercice 1\Exercice 1.cpp(16,9): warning C4313: 'printf' : '%d' dans la chaîne de format est en conflit avec l'argument 1 de type 'int *'.
+C:\Users\Joris HURTEL\source\repos\Exercices 1,2,3 - Joris HURTEL\Exercice 1\Exercice 1.cpp(15): error C4700: variable locale 'ptr' non initialisée utilisée
