@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#define VAL_MAX = 100
+#define VAL_MAX 100
 #include <stdio.h>
 #include <tchar.h>
 #include <string.h>
@@ -29,14 +29,10 @@ Vous devrez créer trois fonctions :
 
 int main(int argc, char** argv)
 {
-	// Création du tableau
-	printf("Veuillez entrer la taille de votre tableau (taille <= 100) : ");
-	int tablenght;
-	scanf("%d", &tablenght);
-	if (tablenght > VAL_MAX)
-	{
-		printf("Erreur : Taille maximum overload");
-	}
+	// Création d'un tableau de taille maximum.
+	int tab[VAL_MAX];
+	// Appelle de la fonction initialisation.
+	Initialisation(tab);
 
 	return 0;
 }

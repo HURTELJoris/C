@@ -7,7 +7,7 @@
 #include <math.h>
 #include "Header Exercice 1.h"
 
-// Déclaration de la fonction échange
+// Déclaration de la fonction échange.
 void echange(int * val1, int * val2) {
 	int temp = *val1;
 	*val1 = *val2;
