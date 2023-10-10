@@ -1,0 +1,32 @@
+Diagramme des cas d'utilisation : Gestion d'Élèves
+
+Utilisateur --> Programme : Utilisation
+
+Cas d'utilisation 1 : Menu Principal
+Utilisateur --> Programme : Sélectionner une option du menu
+
+Cas d'utilisation 2 : Ajouter un élève
+Utilisateur --> Programme : Sélectionner "Ajouter un élève"
+Programme --> Utilisateur : Saisir les informations de l'élève
+Programme --> Utilisateur : Afficher le nombre total d'élèves après l'ajout
+
+Cas d'utilisation 3 : Afficher les élèves
+Utilisateur --> Programme : Sélectionner "Afficher les élèves"
+Programme --> Utilisateur : Afficher les informations de tous les élèves enregistrés
+
+Cas d'utilisation 4 : Sauvegarder les élèves
+Utilisateur --> Programme : Sélectionner "Sauvegarder les élèves"
+Utilisateur --> Programme : Spécifier le nom et le chemin du fichier de sauvegarde
+Programme --> Fichier : Utiliser fwrite pour sauvegarder les données dans le fichier
+
+Cas d'utilisation 5 : Charger les élèves
+Utilisateur --> Programme : Sélectionner "Charger les élèves"
+Utilisateur --> Programme : Spécifier le nom et le chemin du fichier à charger
+OU
+Utilisateur --> Programme : Charger à partir des informations stockées dans un fichier ini
+Fichier --> Programme : Utiliser fread pour charger les données du fichier
+Programme --> Utilisateur : Confirmer le chargement
+
+Cas d'utilisation 6 : Quitter le programme
+Utilisateur --> Programme : Sélectionner "Quitter le programme"
+Programme --> Utilisateur : Demander confirmation pour quitter
