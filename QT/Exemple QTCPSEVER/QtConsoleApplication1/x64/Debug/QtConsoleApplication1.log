@@ -1,0 +1,6 @@
+﻿  moc server.h
+  main.cpp
+  server.cpp
+C:\Users\Joris HURTEL\source\repos\QtConsoleApplication1\QtConsoleApplication1\main.cpp(8,5): error C2065: 'QtDatabase' : identificateur non déclaré
+C:\Users\Joris HURTEL\source\repos\QtConsoleApplication1\QtConsoleApplication1\main.cpp(8,16): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'db'
+C:\Users\Joris HURTEL\source\repos\QtConsoleApplication1\QtConsoleApplication1\main.cpp(8,16): error C3861: 'db' : identificateur introuvable
