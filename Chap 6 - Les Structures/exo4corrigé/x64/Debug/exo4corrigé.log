@@ -1,4 +1,4 @@
 ﻿  Source.cpp
-c:\users\formation\desktop\c\chap 6 - les structures\exo4corrigé\source.cpp(104): error C2143: erreur de syntaxe : absence de ';' avant 'chaîne'
-c:\users\formation\desktop\c\chap 6 - les structures\exo4corrigé\source.cpp(104): error C2143: erreur de syntaxe : absence de ';' avant 'constante'
-c:\users\formation\desktop\c\chap 6 - les structures\exo4corrigé\source.cpp(105): error C2143: erreur de syntaxe : absence de ';' avant '}'
+C:\Users\Joris HURTEL\source\repos\C\Chap 6 - Les Structures\exo4corrigé\Source.cpp(114,3): error C3861: 'memcmpy' : identificateur introuvable
+C:\Users\Joris HURTEL\source\repos\C\Chap 6 - Les Structures\exo4corrigé\Source.cpp(119,31): error C2065: 'nom' : identificateur non déclaré
+C:\Users\Joris HURTEL\source\repos\C\Chap 6 - Les Structures\exo4corrigé\Source.cpp(120,34): error C2065: 'prenom' : identificateur non déclaré
