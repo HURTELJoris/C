@@ -1,0 +1,5 @@
+﻿  moc serialcommunication.h
+  main.cpp
+  serialcommunication.cpp
+  moc_serialcommunication.cpp
+  serialcommunication.vcxproj -> C:\Users\Joris HURTEL\source\repos\serialcommunication\x64\Debug\serialcommunication.exe
