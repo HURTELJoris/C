@@ -22,13 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_InitialisationQt_t {
-<<<<<<< HEAD
     QByteArrayData data[11];
     char stringdata0[203];
-=======
-    QByteArrayData data[7];
-    char stringdata0[124];
->>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -43,26 +38,18 @@ QT_MOC_LITERAL(2, 47, 0), // ""
 QT_MOC_LITERAL(3, 48, 9), // "Connexion"
 QT_MOC_LITERAL(4, 58, 17), // "onSocketConnected"
 QT_MOC_LITERAL(5, 76, 20), // "onSocketDisconnected"
-<<<<<<< HEAD
 QT_MOC_LITERAL(6, 97, 26), // "onSendMessageButtonClicked"
 QT_MOC_LITERAL(7, 124, 17), // "onSocketReadyRead"
 QT_MOC_LITERAL(8, 142, 21), // "onServerNewConnection"
 QT_MOC_LITERAL(9, 164, 20), // "onClientDisconnected"
 QT_MOC_LITERAL(10, 185, 17) // "onClientReadyRead"
-=======
-QT_MOC_LITERAL(6, 97, 26) // "onSendMessageButtonClicked"
->>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
 
     },
     "InitialisationQt\0onDisplayMessageButtonClicked\0"
     "\0Connexion\0onSocketConnected\0"
-<<<<<<< HEAD
     "onSocketDisconnected\0onSendMessageButtonClicked\0"
     "onSocketReadyRead\0onServerNewConnection\0"
     "onClientDisconnected\0onClientReadyRead"
-=======
-    "onSocketDisconnected\0onSendMessageButtonClicked"
->>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
 };
 #undef QT_MOC_LITERAL
 
@@ -72,11 +59,7 @@ static const uint qt_meta_data_InitialisationQt[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-<<<<<<< HEAD
-       9,   14, // methods
-=======
-       5,   14, // methods
->>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
+      14,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -84,23 +67,20 @@ static const uint qt_meta_data_InitialisationQt[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-<<<<<<< HEAD
-       1,    0,   59,    2, 0x0a /* Public */,
-       3,    0,   60,    2, 0x0a /* Public */,
-       4,    0,   61,    2, 0x0a /* Public */,
-       5,    0,   62,    2, 0x0a /* Public */,
-       6,    0,   63,    2, 0x0a /* Public */,
-       7,    0,   64,    2, 0x0a /* Public */,
-       8,    0,   65,    2, 0x0a /* Public */,
-       9,    0,   66,    2, 0x0a /* Public */,
-      10,    0,   67,    2, 0x0a /* Public */,
-=======
-       1,    0,   39,    2, 0x0a /* Public */,
-       3,    0,   40,    2, 0x0a /* Public */,
-       4,    0,   41,    2, 0x0a /* Public */,
-       5,    0,   42,    2, 0x0a /* Public */,
-       6,    0,   43,    2, 0x0a /* Public */,
->>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
+       1,    0,   84,    2, 0x0a /* Public */,
+       3,    0,   85,    2, 0x0a /* Public */,
+       4,    0,   86,    2, 0x0a /* Public */,
+       5,    0,   87,    2, 0x0a /* Public */,
+       6,    0,   88,    2, 0x0a /* Public */,
+       7,    0,   89,    2, 0x0a /* Public */,
+       8,    0,   90,    2, 0x0a /* Public */,
+       9,    0,   91,    2, 0x0a /* Public */,
+      10,    0,   92,    2, 0x0a /* Public */,
+       1,    0,   93,    2, 0x0a /* Public */,
+       3,    0,   94,    2, 0x0a /* Public */,
+       4,    0,   95,    2, 0x0a /* Public */,
+       5,    0,   96,    2, 0x0a /* Public */,
+       6,    0,   97,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,
@@ -108,13 +88,15 @@ static const uint qt_meta_data_InitialisationQt[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-<<<<<<< HEAD
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-=======
->>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -130,13 +112,15 @@ void InitialisationQt::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         case 2: _t->onSocketConnected(); break;
         case 3: _t->onSocketDisconnected(); break;
         case 4: _t->onSendMessageButtonClicked(); break;
-<<<<<<< HEAD
         case 5: _t->onSocketReadyRead(); break;
         case 6: _t->onServerNewConnection(); break;
         case 7: _t->onClientDisconnected(); break;
         case 8: _t->onClientReadyRead(); break;
-=======
->>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
+        case 9: _t->onDisplayMessageButtonClicked(); break;
+        case 10: _t->Connexion(); break;
+        case 11: _t->onSocketConnected(); break;
+        case 12: _t->onSocketDisconnected(); break;
+        case 13: _t->onSendMessageButtonClicked(); break;
         default: ;
         }
     }
@@ -172,23 +156,13 @@ int InitialisationQt::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-<<<<<<< HEAD
-        if (_id < 9)
+        if (_id < 14)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 14;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 9)
+        if (_id < 14)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 9;
-=======
-        if (_id < 5)
-            qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
-            *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 5;
->>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
+        _id -= 14;
     }
     return _id;
 }

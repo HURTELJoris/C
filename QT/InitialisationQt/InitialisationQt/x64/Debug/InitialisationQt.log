@@ -1,8 +1,4 @@
-﻿  InitialisationQt.cpp
-<<<<<<< HEAD
-  InitialisationQt.vcxproj -> \\192.168.64.88\Partage Exo\C\QT\InitialisationQt\x64\Debug\InitialisationQt.exe
-=======
-  main.cpp
-  moc_InitialisationQt.cpp
-  InitialisationQt.vcxproj -> C:\D()()\QT\InitialisationQt\x64\Debug\InitialisationQt.exe
->>>>>>> eb7c2e3668728ec3c0fb885685ec9d92fdbdfa85
+﻿  uic InitialisationQt.ui
+   uic: Error in line 9, column 2 : Unexpected '<'.
+   File 'C:\Users\Joris HURTEL\source\repos\C\QT\InitialisationQt\InitialisationQt\InitialisationQt.ui' is not valid
+C:\Users\Joris HURTEL\AppData\Local\QtMsBuild\qt_globals.targets(272,5): error MSB4181: la tâche "QtRunWork" a retourné false mais n'a pas journalisé d'erreur.
