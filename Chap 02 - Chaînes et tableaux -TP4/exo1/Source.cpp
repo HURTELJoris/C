@@ -10,12 +10,12 @@ int main(int argc, char** argv)
 	int tab[40];
 	srand(time(NULL));
 	int i, j =1, k;
-	for (int i = 1; i < 40; i++)
+	for (int i = 1; i < 39; i++)
 	{
 		tab[i] = rand() % 1000 - 500;
 	}
 	k = tab[j];
-	while (j < sizeof(tab))
+	while (j < sizeof(tab) -1)
 	{
 		i = j - 1;
 

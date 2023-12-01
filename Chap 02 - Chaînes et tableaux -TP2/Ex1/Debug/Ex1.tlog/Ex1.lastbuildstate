@@ -1,2 +1,2 @@
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.17763.0
-Debug|Win32|C:\Users\Formation\Desktop\C\Chap 02 - Chaînes et tableaux -TP2\|
+PlatformToolSet=v143:VCToolArchitecture=Native32Bit:VCToolsVersion=14.37.32822:TargetPlatformVersion=10.0.22621.0:
+Debug|Win32|C:\Users\Joris HURTEL\source\repos\C\Chap 02 - Chaînes et tableaux -TP2\|
