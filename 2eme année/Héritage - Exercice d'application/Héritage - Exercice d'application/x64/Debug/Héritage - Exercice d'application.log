@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Joris HURTEL\source\repos\C\Héritage - Exercice d'application\Héritage - Exercice d'application\main.cpp(46,19): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  Héritage - Exercice d'application.vcxproj -> C:\Users\Joris HURTEL\source\repos\C\Héritage - Exercice d'application\x64\Debug\Héritage - Exercice d'application.exe
