@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Joris HURTEL\source\repos\C\Le language C++\exo1\Source.cpp(16,39): error C2572: 'pile_entier::pile_entier' : redéfinition de l'argument par défaut : paramètre 1
+C:\Users\Joris HURTEL\source\repos\C\Le language C++\exo1\Header.h(9,2): message : voir la déclaration de 'pile_entier::pile_entier'
+C:\Users\Joris HURTEL\source\repos\C\Le language C++\exo1\Source.cpp(16,81): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'pile'

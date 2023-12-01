@@ -13,7 +13,11 @@
 Créer un programme qui définisse la structure fiche, qui saisisse une fiche et qui l'affiche.
 */
 
-pile_entier::pile_entier(int taille = 20) {	hauteur = 0;	int * pile = new int pile[taille];}
+pile_entier::pile_entier(int taille = 20) {
+	hauteur = 0;
+	int * pile = new int pile[taille];
+}
+
 
 int main(int argc, char** argv)
 {
