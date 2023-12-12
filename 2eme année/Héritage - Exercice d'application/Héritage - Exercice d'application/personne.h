@@ -12,6 +12,6 @@ protected:
 	int annee;
 public:
 	personne(std::string lenom, std::string leprenom, int annee);
-	~personne();
+	virtual ~personne();
 	void affiche();
 };

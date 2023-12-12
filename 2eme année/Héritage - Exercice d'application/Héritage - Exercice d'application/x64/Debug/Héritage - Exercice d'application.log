@@ -1,3 +1,9 @@
-﻿  main.cpp
-C:\Users\Joris HURTEL\source\repos\C\Héritage - Exercice d'application\Héritage - Exercice d'application\main.cpp(46,19): warning C4305: 'initialisation' : troncation de 'double' à 'float'
-  Héritage - Exercice d'application.vcxproj -> C:\Users\Joris HURTEL\source\repos\C\Héritage - Exercice d'application\x64\Debug\Héritage - Exercice d'application.exe
+﻿  doctorant.cpp
+  etudiant.cpp
+  main.cpp
+C:\Users\Joris HURTEL\source\repos\C\2eme année\Héritage - Exercice d'application\Héritage - Exercice d'application\main.cpp(47,19): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  personne.cpp
+  prof.cpp
+  Génération de code en cours...
+  LINK : C:\Users\Joris HURTEL\source\repos\C\2eme année\Héritage - Exercice d'application\x64\Debug\Héritage - Exercice d'application.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+  Héritage - Exercice d'application.vcxproj -> C:\Users\Joris HURTEL\source\repos\C\2eme année\Héritage - Exercice d'application\x64\Debug\Héritage - Exercice d'application.exe

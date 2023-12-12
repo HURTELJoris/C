@@ -1,7 +1,7 @@
 #pragma once
 #include "personne.h"
 
-class etudiant : public personne
+class etudiant : virtual public personne
 {
 private:
     char classe[5];

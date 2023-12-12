@@ -1,5 +1,6 @@
 #include "etudiant.h"
 #include "prof.h"
+#include "doctorant.h"
 #include <conio.h>
 
 int main(int argc, char** argv)
@@ -58,6 +59,10 @@ int main(int argc, char** argv)
     prof * c = new prof("Garfield" + std::to_string(1), "lechat" + std::to_string(1), 1 + 1, matiere, classes);
     c->affiche();
     delete c;
+
+
+    doctorant* d = new doctorant((char*)"Nom", (char*)"Prenom", 1850, (char*)"SN7", &moyenne, commentaires, matiere,classes, (char*)"C++");
+    delete d;
 
 
     _getch();

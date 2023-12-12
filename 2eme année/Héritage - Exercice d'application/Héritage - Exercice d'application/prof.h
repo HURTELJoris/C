@@ -1,7 +1,7 @@
 #pragma once
 #include "personne.h"
 
-class prof : public personne
+class prof : virtual public personne
 {
 private:
     std::string matiere;
