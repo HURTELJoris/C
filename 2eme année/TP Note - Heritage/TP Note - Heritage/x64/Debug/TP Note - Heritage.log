@@ -1,0 +1,13 @@
+﻿  TP Note - Heritage.cpp
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(180,5): error C2360: l'initialisation de 'tech' est ignorée par l'étiquette 'case'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(176,18): message : voir la déclaration de 'tech'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(191,5): error C2360: l'initialisation de 'vend' est ignorée par l'étiquette 'case'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(187,15): message : voir la déclaration de 'vend'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(191,5): error C2360: l'initialisation de 'tech' est ignorée par l'étiquette 'case'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(176,18): message : voir la déclaration de 'tech'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(201,5): error C2360: l'initialisation de 'repr' est ignorée par l'étiquette 'case'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(199,20): message : voir la déclaration de 'repr'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(201,5): error C2360: l'initialisation de 'vend' est ignorée par l'étiquette 'case'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(187,15): message : voir la déclaration de 'vend'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(201,5): error C2360: l'initialisation de 'tech' est ignorée par l'étiquette 'case'
+C:\Users\Joris HURTEL\source\repos\TP Note - Heritage\TP Note - Heritage\TP Note - Heritage.cpp(176,18): message : voir la déclaration de 'tech'
