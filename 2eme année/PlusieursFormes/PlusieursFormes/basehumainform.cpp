@@ -1,6 +1,6 @@
 #include "basehumainform.h"
 #include "Etudiant.h"
-
+#include "Professeur.h"
 
 BaseHumainForm::BaseHumainForm(QWidget* parent)
 	: QWidget(parent)
@@ -25,6 +25,7 @@ void BaseHumainForm::display(ActiveForm formMode)
 	}
 	else if (formMode == PROF)
 	{
-
+		form = new ProfesseurForm();
+		form->generateForm(this, containerLayout);
 	}
 }

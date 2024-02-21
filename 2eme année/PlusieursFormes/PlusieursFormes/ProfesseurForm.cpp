@@ -1,39 +1,40 @@
-#include "EtudiantForm.h"
+#include "ProfesseurForm.h"
 
-void EtudiantForm::generateForm(QWidget* parent, QLayout* container)
+
+void ProfesseurForm::generateForm(QWidget* parent, QLayout* container)
 {
     Form::generateForm(parent, container);
 
-    QLayout* topLayout = new QHBoxLayout();
+    QHBoxLayout* topLayout = new QHBoxLayout();
     addAllocatedObject(topLayout);
-    QLayout* bottomLayout = new QHBoxLayout();
+    QHBoxLayout* bottomLayout = new QHBoxLayout();
     addAllocatedObject(bottomLayout);
 
     container->addItem(topLayout);
     container->addItem(bottomLayout);
 
-    QLabel* labelMatiere = new QLabel("Liste des matières suivies :");
+    QLabel* labelMatiere = new QLabel("Liste des matières enseignées :");
     topLayout->addWidget(labelMatiere);
     addAllocatedObject(labelMatiere);
-
 
     matiereNoteTableView = new QTableView();
     topLayout->addWidget(matiereNoteTableView);
     addAllocatedObject(matiereNoteTableView);
 
+    QLabel* labelTarif = new QLabel("Tarif horaires :");
+    bottomLayout->addWidget(labelTarif);
+    addAllocatedObject(labelTarif);
 
-    QLabel* labelclasse = new QLabel("Classe :");
-    bottomLayout->addWidget(labelclasse);
-    addAllocatedObject(labelclasse);
+
+    QLineEdit* tarifLineEdit = new QLineEdit(); // Créez un QLineEdit pour les tarifs
+    bottomLayout->addWidget(tarifLineEdit); // Ajoutez-le à votre layout
+    addAllocatedObject(tarifLineEdit); // Ajoutez-le à votre liste d'objets alloués
 
 
-    classeComboBox = new QComboBox();
-    classeComboBox->addItem("SN1");
-    classeComboBox->addItem("SN2");
-    classeComboBox->addItem("CIEL1");
-    bottomLayout->addWidget(classeComboBox);
-    addAllocatedObject(classeComboBox);
 
+    TarifTableView = new QTableView();
+    topLayout->addWidget(TarifTableView);
+    addAllocatedObject(TarifTableView);
 
     // Création du modèle de données
     QStandardItemModel* model = new QStandardItemModel();
@@ -48,14 +49,17 @@ void EtudiantForm::generateForm(QWidget* parent, QLayout* container)
     // Définition du modèle pour la QTableView
     matiereNoteTableView->setModel(model);
 
+    TarifTableView->setModel(model);
+
     labelMatiere->setParent(parent);
     matiereNoteTableView->setParent(parent);
-    classeComboBox->setParent(parent);
-    labelclasse->setParent(parent); // Définissez le parent pour le QLineEdit
+    labelTarif->setParent(parent);
+    tarifLineEdit->setParent(parent); // Définissez le parent pour le QLineEdit
 
 
     labelMatiere->show();
     matiereNoteTableView->show();
-    classeComboBox->show();
-    labelclasse->show();
+    labelTarif->show();
+    tarifLineEdit->show(); // Montrez le QLineEdit
 }
+

@@ -90,6 +90,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Professeur.cpp" />
+    <ClCompile Include="ProfesseurForm.cpp" />
     <QtRcc Include="PlusieursFormes.qrc" />
     <QtUic Include="PlusieursFormes.ui" />
     <QtMoc Include="PlusieursFormes.h" />
@@ -107,6 +108,7 @@
   <ItemGroup>
     <ClInclude Include="ActiveForm.h" />
     <ClInclude Include="Professeur.h" />
+    <QtMoc Include="ProfesseurForm.h" />
     <QtMoc Include="Form.h" />
     <QtMoc Include="EtudiantForm.h" />
     <ClInclude Include="Etudiant.h" />

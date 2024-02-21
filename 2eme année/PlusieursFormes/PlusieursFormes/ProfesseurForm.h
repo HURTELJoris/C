@@ -7,15 +7,17 @@
 
 #include <QStandardItemModel>
 #include <QTableWidget>
+#include <QLineEdit>
 
-class EtudiantForm :
-    public Form
+
+
+class ProfesseurForm : public Form
 {
     Q_OBJECT
 
     QTableView* matiereNoteTableView;
+    QTableView* TarifTableView;
     QComboBox* classeComboBox;
-    QComboBox* matiereComboBox; // Ajout de la liste de matières communes
 
 public:
     virtual void generateForm(QWidget* parent, QLayout* container);

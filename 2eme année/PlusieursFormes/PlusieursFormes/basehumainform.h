@@ -3,6 +3,7 @@
 #include <qlayout.h>
 #include "Humain.h"
 #include "EtudiantForm.h"
+#include "ProfesseurForm.h"
 #include "ActiveForm.h"
 
 class BaseHumainForm :
